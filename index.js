@@ -8,7 +8,7 @@ client.on('ready', (ready) => {
 const woopers = ['insert link here', 'and here', 'and here', 'and maybe here as well if you are a true madlad']
 
 client.on('message', (message) => {
-   if (message.content === !wooper)
+   if (message.content === '!wooper')
       message.channel.send(new Discord.MessageEmbed()
          .setColor('GREEN')
          .setTitle('revolug why')
